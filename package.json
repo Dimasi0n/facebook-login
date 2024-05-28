@@ -20,10 +20,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:capacitor-community/facebook-login.git"
+    "url": "git@github.com:Dimasi0n/facebook-login.git"
   },
   "bugs": {
-    "url": "git@github.com:capacitor-community/facebook-login.git/issues"
+    "url": "git@github.com:Dimasi0n/facebook-login.git/issues"
   },
   "scripts": {
     "verify": "npm run verify:ios && npm run verify:android && npm run verify:web",
