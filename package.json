@@ -1,5 +1,5 @@
 {
-  "name": "@capacitor-community/facebook-login",
+  "name": "myrunway-capacitor-facebook-login",
   "version": "6.0.0",
   "description": "A native plugin for Facebook Login",
   "engines": {
@@ -20,10 +20,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Dimasi0n/facebook-login.git"
-  },
-  "bugs": {
-    "url": "git@github.com:Dimasi0n/facebook-login.git/issues"
+    "url": "git+ssh://git@github.com/Dimasi0n/facebook-login.git"
   },
   "scripts": {
     "verify": "npm run verify:ios && npm run verify:android && npm run verify:web",
@@ -80,5 +77,9 @@
     "android": {
       "src": "android"
     }
+  },
+  "homepage": "https://github.com/Dimasi0n/facebook-login#readme",
+  "bugs": {
+    "url": "https://github.com/Dimasi0n/facebook-login/issues"
   }
 }

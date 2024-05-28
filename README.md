@@ -1,5 +1,5 @@
 <p align="center"><br><img src="https://user-images.githubusercontent.com/236501/85893648-1c92e880-b7a8-11ea-926d-95355b8175c7.png" width="128" height="128" /></p>
-<h3 align="center">Facebook Login</h3>
+<h3 align="center">Fork from original Facebook Login with Limited Login function.</h3>
 <p align="center"><strong><code>@capacitor-community/facebook-login</code></strong></p>
 <p align="center">
   Capacitor community plugin for native Facebook Login.
@@ -440,13 +440,17 @@ setAdvertiserIDCollectionEnabled(options: { enabled: boolean; }) => Promise<void
 
 Make all properties in T optional
 
-<code>{ [P in keyof T]?: T[P]; }</code>
+<code>{
+ [P in keyof T]?: T[P];
+ }</code>
 
 
 #### Record
 
 Construct a type with a set of properties K of type T
 
-<code>{ [P in K]: T; }</code>
+<code>{
+ [P in K]: T;
+ }</code>
 
 </docgen-api>
