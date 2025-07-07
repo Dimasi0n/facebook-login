@@ -41,7 +41,10 @@ declare interface Facebook {
     params: TParams,
     callback: (response: TResponse) => void,
   ): void;
-  logEvent(handle: (response: any) => void, options: { eventName: string }): void;
+  logEvent(
+    handle: (response: any) => void,
+    options: { eventName: string },
+  ): void;
   setAutoLogAppEventsEnabled(
     handle: (response: any) => void,
     options: { enabled: boolean },
@@ -66,7 +69,7 @@ declare global {
 
 export class FacebookLoginWeb extends WebPlugin implements FacebookLoginPlugin {
   async initialize(options: Partial<FacebookConfiguration>): Promise<void> {
-    const defaultOptions = { version: 'v17.0' };
+    const defaultOptions = { version: 'v18.0' };
     await this.loadScript(options.locale);
     return FB.init({ ...defaultOptions, ...options });
   }
